@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on luisliu95的知识库</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>更新知识库方式</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/%E6%9B%B4%E6%96%B0%E7%9F%A5%E8%AF%86%E5%BA%93%E6%96%B9%E5%BC%8F</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/%E6%9B%B4%E6%96%B0%E7%9F%A5%E8%AF%86%E5%BA%93%E6%96%B9%E5%BC%8F</guid>
+    <description><![CDATA[ 方法 1：使用更新脚本 Copy cd ~/.openclaw/workspace/wiki/quartz-site ./update.sh 方法 2：手动执行 Copy cd ~/.openclaw/workspace/wiki/quartz-site npx quartz build &amp;&amp; npx gh-pages -d public -b gh-pages 更新后等待 1-2 分钟，刷新网站即可看到新内容！. ]]></description>
+    <pubDate>Sat, 09 May 2026 13:22:31 GMT</pubDate>
+  </item><item>
     <title>首页</title>
     <link>https://luisliu95.github.io/my-wiki-ad/</link>
     <guid>https://luisliu95.github.io/my-wiki-ad/</guid>
@@ -59,12 +65,6 @@
     <guid>https://luisliu95.github.io/my-wiki-ad/3.0%E6%9E%B6%E6%9E%84</guid>
     <description><![CDATA[  first_level_industry_name——————一级行业 second_level_industry_name ———— element_key——————————————头像？ u_name———————————————— is_ad_acct_element—————————— element_type—————————————— source_element_type—————————— splash_flag———————————————— caption_info—————————————— text images asr_results ocr_results vi... ]]></description>
     <pubDate>Fri, 08 May 2026 09:36:12 GMT</pubDate>
-  </item><item>
-    <title>5.8周会朋友圈九图</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%B9%9D%E5%9B%BE</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%B9%9D%E5%9B%BE</guid>
-    <description><![CDATA[ 9、审核模式演进@anneyzhao(赵岩) 目标：探索tid审核模式，建设审核组合型违规的能力，并在年底完成与单元素的管控机审能力对齐 方案：以”朋友圈 9 图问题”为试点，跑通组合审核链路。 进展：朋友圈 9 图通过模型测进行图片组装，与原方案存在差异，目前在研发验证阶段，如果是模型侧进行图片拼装，链路侧的方案需调整。 tid环节是什么？ 用tid审还是单元素审？ 投放端不合适插入新的东西（9图组合后的图）. ]]></description>
-    <pubDate>Fri, 08 May 2026 07:19:23 GMT</pubDate>
   </item>
     </channel>
   </rss>
