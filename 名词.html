@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>名词</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="luisliu95的知识库"/><meta property="og:title" content="名词"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="名词"/><meta name="twitter:description" content="1."/><meta property="og:description" content="1."/><meta property="og:image:alt" content="1."/><meta property="twitter:domain" content="luisliu95.github.io/my-wiki-ad"/><meta property="og:url" content="https://luisliu95.github.io/my-wiki-ad/名词"/><meta property="twitter:url" content="https://luisliu95.github.io/my-wiki-ad/名词"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="1."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2x1aXNsaXUvLm9wZW5jbGF3L3dvcmtzcGFjZS93aWtpL3F1YXJ0ei1zaXRlL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="./prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://luisliu95.github.io/my-wiki-ad/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://luisliu95.github.io/my-wiki-ad/名词-og-image.webp"/><meta property="og:image:url" content="https://luisliu95.github.io/my-wiki-ad/名词-og-image.webp"/><meta name="twitter:image" content="https://luisliu95.github.io/my-wiki-ad/名词-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="名词"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">luisliu95的知识库</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-14"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-14" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>名词</a></div></nav><h1 class="article-title">名词</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-09T03:56:07.338Z">2026年5月09日</time><span>25分钟阅读</span></p></div></div><article class="popover-hint"><p>1.  LBS广告：Location Based Services Advertising，“位置定向广告”</p>
+<p>通过手机 GPS、基站、Wi‑Fi、IP 地址、POI/商圈等位置信息，判断用户当前或历史所在区域，然后向用户投放与位置相关的广告。</p>
+<p>举例：</p>
+<p>● 你在某商场附近，刷到该商场餐饮店的优惠券广告；</p>
+<p>● 你到某个城市出差，App 给你推送附近酒店、租车、餐厅广告；</p>
+<p>● 奶茶店只想投放门店周边 333 公里内的人群，就可以用 LBS 广告；</p>
+<p>● 房产、教育、健身、医美等行业按城市、商圈、小区、写字楼附近定向投放。</p>
+<p>核心：</p>
+<p>在合适的地点，把广告推给附近或到过相关地点的人。</p>
+<p>常见形式包括：</p>
+<p>1.  实时位置广告：用户现在在某区域，就推送附近广告。</p>
+<p>2.  商圈/门店周边定向：围绕门店半径投放，如 111 公里、333 公里、555 公里。</p>
+<p>3.  到访人群定向：曾经去过某商场、机场、学校、竞品门店的人。</p>
+<p>4.  本地生活广告：餐饮、零售、美容、健身、汽车、房产等线下业务常用。</p>
+<p>5.  地图/导航广告：在地图 App、导航路线、附近搜索中展示广告。</p>
+<p>它的优点是精准、转化路径短、适合线下门店引流；缺点是依赖定位权限和数据准确性，也涉及用户隐私合规问题。</p>
+<p>2.  长尾样本 = 少见但重要、数量少但风险高、变化多且难以被模型稳定识别的边缘违规广告样本。</p>
+<p>核心价值是：</p>
+<p>补齐模型在低频复杂违规场景上的识别能力，降低风险漏放。</p>
+<p>3.  AUC 和 ROC</p>
+<p>ROC 曲线反映的是模型在不同风险阈值下，风险广告召回率和正常广告误伤率之间的权衡关系。</p>
+<p>AUC 是 ROC 曲线下面积，用来衡量模型整体排序能力。AUC 越高，说明模型越能把真实风险广告排在正常广告前面，从而在相同人审资源下提升风险识别效率，或者在相同风险控制目标下降低正常广告误伤。</p>
+<h1 id="一大模型训练相关">一、大模型训练相关<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#一大模型训练相关" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="1-torchrun">1. torchrun<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-torchrun" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>torchrun 是 PyTorch 官方提供的分布式训练启动工具。</strong></p>
+<p>它的作用是：<br/>
+<strong>把同一个训练任务启动到多张 GPU 上一起跑。</strong></p>
+<p>常见命令：</p>
+<pre><code>torchrun --nproc_per_node=4 train.py
+</code></pre>
+<p>意思是：当前机器使用 4 张 GPU / 4 个进程训练。</p>
+<p>你可以理解为：</p>
+<blockquote>
+<p><strong>torchrun = 多卡训练启动器</strong></p>
+</blockquote>
+<p>适合普通深度学习模型、多 GPU 训练，例如分类、检测、分割、图像融合、大模型微调等。</p>
+<hr/>
+<h2 id="2-ddp">2. DDP<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-ddp" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>DDP 全称 Distributed Data Parallel，分布式数据并行。</strong></p>
+<p>它是 PyTorch 多卡训练中很常见的一种方式。</p>
+<p>简单理解：</p>
+<pre><code>GPU0 处理一部分数据GPU1 处理一部分数据GPU2 处理一部分数据GPU3 处理一部分数据
+</code></pre>
+<p>每张 GPU 都有一份完整模型，但处理不同 batch 的数据，然后同步梯度。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>DDP = 多张卡各自算一部分数据，最后同步参数。</strong></p>
+</blockquote>
+<hr/>
+<h2 id="3-deepspeed">3. DeepSpeed<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-deepspeed" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>DeepSpeed 是微软开源的大模型训练加速和显存优化框架。</strong></p>
+<p>它主要解决：</p>
+<pre><code>模型太大显存不够多卡训练效率低优化器状态占显存太多
+</code></pre>
+<p>你可以理解为：</p>
+<blockquote>
+<p><strong>DeepSpeed = 大模型训练优化器</strong></p>
+</blockquote>
+<p>它比 torchrun 更偏向大模型训练，特别适合 LLM / 多模态模型。</p>
+<hr/>
+<h2 id="4-zero">4. ZeRO<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-zero" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>ZeRO 是 DeepSpeed 里的核心显存优化技术。</strong></p>
+<p>普通训练时，每张 GPU 都要保存完整的：</p>
+<pre><code>模型参数梯度优化器状态
+</code></pre>
+<p>ZeRO 会把这些东西拆开，分摊到不同 GPU 上。</p>
+<p>可以理解为：</p>
+<blockquote>
+<p><strong>ZeRO = 把模型训练时占显存的东西切开，分给多张卡保存。</strong></p>
+</blockquote>
+<p>常见有：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>类型</th><th>含义</th></tr></thead><tbody><tr><td>ZeRO-1</td><td>切分优化器状态</td></tr><tr><td>ZeRO-2</td><td>切分优化器状态 + 梯度</td></tr><tr><td>ZeRO-3</td><td>切分优化器状态 + 梯度 + 模型参数</td></tr></tbody></table></div>
+<p>ZeRO-3 最省显存，但通信和配置也更复杂。</p>
+<hr/>
+<h2 id="5-offload">5. Offload<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-offload" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Offload 指把部分训练数据从 GPU 显存转移到 CPU 内存，甚至硬盘上。</strong></p>
+<p>比如：</p>
+<pre><code>参数放 GPU优化器状态放 CPU部分状态放 NVMe 硬盘
+</code></pre>
+<p>好处是省显存。<br/>
+坏处是速度可能变慢。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>Offload = 用速度换显存。</strong></p>
+</blockquote>
+<hr/>
+<h1 id="二大模型微调工具相关">二、大模型微调工具相关<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#二大模型微调工具相关" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="6-llama-factory">6. LLaMA-Factory<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-llama-factory" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>LLaMA-Factory 是一个大模型微调工具箱。</strong></p>
+<p>虽然名字叫 LLaMA-Factory，但它不只支持 LLaMA，也支持很多模型，例如：</p>
+<pre><code>QwenLLaMADeepSeekGLMGemmaMistralPhi多模态模型
+</code></pre>
+<p>它主要用来做：</p>
+<pre><code>SFT 微调LoRA 微调QLoRA 微调DPO 对齐模型导出模型推理WebUI 可视化训练
+</code></pre>
+<p>一句话：</p>
+<blockquote>
+<p><strong>LLaMA-Factory = 帮你更方便微调大模型的工具。</strong></p>
+</blockquote>
+<hr/>
+<h2 id="7-sft">7. SFT<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-sft" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>SFT 全称 Supervised Fine-Tuning，监督微调。</strong></p>
+<p>它是最常见的大模型微调方式。</p>
+<p>数据格式通常类似：</p>
+<pre><code>{  &quot;instruction&quot;: &quot;判断这条广告是否违规&quot;,  &quot;input&quot;: &quot;7天根治糖尿病，无效退款&quot;,  &quot;output&quot;: &quot;违规，原因是涉及医疗功效承诺和虚假宣传&quot;}
+</code></pre>
+<p>模型学习的是：</p>
+<pre><code>给定问题 → 输出标准答案
+</code></pre>
+<p>一句话：</p>
+<blockquote>
+<p><strong>SFT = 用人工标注好的问答数据教模型怎么回答。</strong></p>
+</blockquote>
+<p>广告审核场景可以用来做：</p>
+<pre><code>风险识别违规原因生成审核建议生成规则解释样本自动标注
+</code></pre>
+<hr/>
+<h2 id="8-lora">8. LoRA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-lora" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>LoRA 是一种轻量级微调方法。</strong></p>
+<p>全参数微调是把整个大模型都训练一遍，显存消耗很大。</p>
+<p>LoRA 的思路是：</p>
+<pre><code>原模型大部分参数不动只训练一小部分新增参数
+</code></pre>
+<p>优点：</p>
+<pre><code>显存占用低训练速度快保存文件小适合个人或小团队微调
+</code></pre>
+<p>一句话：</p>
+<blockquote>
+<p><strong>LoRA = 不动大模型主体，只训练外挂小参数。</strong></p>
+</blockquote>
+<hr/>
+<h2 id="9-qlora">9. QLoRA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-qlora" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>QLoRA 是更省显存的 LoRA。</strong></p>
+<p>它会先把大模型量化到 4bit / 8bit，再进行 LoRA 微调。</p>
+<p>可以理解为：</p>
+<pre><code>LoRA = 轻量微调QLoRA = 量化后的轻量微调，更省显存
+</code></pre>
+<p>一句话：</p>
+<blockquote>
+<p><strong>QLoRA = 显存更省的大模型微调方式。</strong></p>
+</blockquote>
+<p>如果你的显卡显存不大，比如 16GB，QLoRA 会比全参数微调现实很多。</p>
+<hr/>
+<h2 id="10-dpo">10. DPO<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-dpo" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>DPO 全称 Direct Preference Optimization，直接偏好优化。</strong></p>
+<p>它不是简单地教模型标准答案，而是告诉模型：</p>
+<pre><code>这个回答更好那个回答更差
+</code></pre>
+<p>例如广告审核场景：</p>
+<pre><code>问题：这条广告为什么违规？好回答：指出医疗功效承诺、虚假宣传，并给出拦截建议。差回答：只说“违规”，没有解释原因。
+</code></pre>
+<p>DPO 用来让模型更符合人的偏好。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>DPO = 让模型学会更偏向人类认为更好的回答。</strong></p>
+</blockquote>
+<hr/>
+<h1 id="三分类任务相关">三、分类任务相关<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#三分类任务相关" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="11-binary-classification">11. Binary Classification<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11-binary-classification" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Binary Classification 是二分类。</strong></p>
+<p>意思是一个样本只判断两个结果之一。</p>
+<p>广告审核例子：</p>
+<pre><code>违规 / 不违规通过 / 拦截风险 / 正常
+</code></pre>
+<p>一句话：</p>
+<blockquote>
+<p><strong>二分类 = 二选一。</strong></p>
+</blockquote>
+<hr/>
+<h2 id="12-multi-class-prediction">12. Multi-class Prediction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12-multi-class-prediction" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Multi-class Prediction 是多分类预测。</strong></p>
+<p>意思是一个样本只能属于多个类别中的一个。</p>
+<p>例如广告行业分类：</p>
+<pre><code>食品美妆教育金融医疗游戏
+</code></pre>
+<p>一条广告最终只能归到其中一个主类别。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>多分类 = 多个类别里只能选一个。</strong></p>
+</blockquote>
+<hr/>
+<h2 id="13-multi-label-prediction">13. Multi-label Prediction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13-multi-label-prediction" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Multi-label Prediction 是多标签预测。</strong></p>
+<p>意思是一个样本可以同时属于多个类别。</p>
+<p>广告审核例子：</p>
+<pre><code>一条广告可能同时命中：虚假宣传医疗功效诱导点击资质不明
+</code></pre>
+<p>它不是只能选一个，而是可以多个标签同时成立。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>多标签预测 = 一个样本可以打多个标签。</strong></p>
+</blockquote>
+<p>这是广告审核里非常常见的任务，因为一条广告经常同时存在多个风险点。</p>
+<hr/>
+<h2 id="14-label">14. Label<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14-label" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Label 是标签。</strong></p>
+<p>在机器学习里，标签就是样本的标准答案。</p>
+<p>例如：</p>
+<pre><code>广告文本：3天瘦20斤，无效退款标签：虚假宣传、夸大承诺
+</code></pre>
+<p>标签可以是：</p>
+<pre><code>二分类标签：违规 / 不违规多分类标签：医疗 / 金融 / 教育多标签标签：虚假宣传 + 医疗功效 + 诱导点击
+</code></pre>
+<hr/>
+<h1 id="四pr-曲线与评估指标">四、PR 曲线与评估指标<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#四pr-曲线与评估指标" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="15-precision">15. Precision<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15-precision" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Precision 是精确率。</strong></p>
+<p>它表示：</p>
+<blockquote>
+<p>模型判为风险的样本里，真正有风险的比例。</p>
+</blockquote>
+<p>公式：</p>
+<pre><code>Precision = TP / (TP + FP)
+</code></pre>
+<p>广告审核里可以理解为：</p>
+<blockquote>
+<p><strong>模型拦截的广告里，有多少是真的违规。</strong></p>
+</blockquote>
+<p>Precision 越高，说明误伤越少。</p>
+<hr/>
+<h2 id="16-recall">16. Recall<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16-recall" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Recall 是召回率。</strong></p>
+<p>它表示：</p>
+<blockquote>
+<p>所有真实风险样本里，被模型找出来的比例。</p>
+</blockquote>
+<p>公式：</p>
+<pre><code>Recall = TP / (TP + FN)
+</code></pre>
+<p>广告审核里可以理解为：</p>
+<blockquote>
+<p><strong>所有违规广告里，有多少被模型抓住了。</strong></p>
+</blockquote>
+<p>Recall 越高，说明漏放越少。</p>
+<hr/>
+<h2 id="17-pr-曲线">17. PR 曲线<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17-pr-曲线" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>PR 曲线全称 Precision-Recall Curve，精确率-召回率曲线。</strong></p>
+<p>横轴通常是：</p>
+<pre><code>Recall
+</code></pre>
+<p>纵轴通常是：</p>
+<pre><code>Precision
+</code></pre>
+<p>它表示在不同阈值下，模型的精确率和召回率变化情况。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>PR 曲线 = 看模型在“少误伤”和“少漏放”之间怎么权衡。</strong></p>
+</blockquote>
+<p>在广告审核、风控、欺诈检测这类正负样本极不均衡的场景中，PR 曲线很有价值。</p>
+<hr/>
+<h2 id="18-threshold">18. Threshold<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#18-threshold" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Threshold 是阈值。</strong></p>
+<p>模型通常会输出一个风险分数：</p>
+<pre><code>广告A：0.92广告B：0.61广告C：0.32
+</code></pre>
+<p>如果阈值设为 0.5：</p>
+<pre><code>分数 >= 0.5 → 判为风险分数 &lt; 0.5 → 判为正常
+</code></pre>
+<p>阈值越高：</p>
+<pre><code>拦截更谨慎Precision 可能提高Recall 可能下降误伤少，但漏放可能增加
+</code></pre>
+<p>阈值越低：</p>
+<pre><code>拦截更激进Recall 可能提高Precision 可能下降漏放少，但误伤可能增加
+</code></pre>
+<hr/>
+<h2 id="19-tp--fp--fn--tn">19. TP / FP / FN / TN<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#19-tp--fp--fn--tn" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>这是分类模型评估里最基础的四个概念。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>名词</th><th>含义</th><th>广告审核例子</th></tr></thead><tbody><tr><td>TP</td><td>真阳性</td><td>违规广告被正确拦截</td></tr><tr><td>FP</td><td>假阳性</td><td>正常广告被误拦</td></tr><tr><td>FN</td><td>假阴性</td><td>违规广告被漏放</td></tr><tr><td>TN</td><td>真阴性</td><td>正常广告被正确放行</td></tr></tbody></table></div>
+<p>在广告审核里：</p>
+<pre><code>FP = 误伤FN = 漏放
+</code></pre>
+<p>这两个特别重要。</p>
+<hr/>
+<h2 id="20-ap--auprc">20. AP / AUPRC<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#20-ap--auprc" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>AUPRC 是 PR 曲线下面的面积。</strong></p>
+<p><strong>AP 是 Average Precision，平均精确率。</strong></p>
+<p>很多时候可以把它们理解成类似概念：</p>
+<blockquote>
+<p><strong>衡量 PR 曲线整体表现的综合指标。</strong></p>
+</blockquote>
+<p>一般来说：</p>
+<pre><code>AP / AUPRC 越高，模型整体越好
+</code></pre>
+<p>但业务上不能只看 AP，还要看具体策略点，比如：</p>
+<pre><code>在 Recall = 90% 时，Precision 是多少？在 Precision = 95% 时，Recall 是多少？
+</code></pre>
+<hr/>
+<h2 id="21-groundtruth">21. Groundtruth<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#21-groundtruth" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Ground truth</strong> 一般翻译为：<strong>真实标签 / 标准答案 / 真值 / 人工标注结果</strong>。</p>
+<p>在机器学习、图像处理、检测、分割等任务里，它表示模型要学习或对比的“正确答案”。</p>
+<h1 id="五roc--auc-相关">五、ROC / AUC 相关<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#五roc--auc-相关" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="21-roc-曲线">21. ROC 曲线<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#21-roc-曲线" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>ROC 曲线全称 Receiver Operating Characteristic Curve。</strong></p>
+<p>它看的是：</p>
+<pre><code>TPR 和 FPR 的关系
+</code></pre>
+<p>其中：</p>
+<pre><code>TPR = 真正率 = RecallFPR = 假正率
+</code></pre>
+<p>广告审核里：</p>
+<pre><code>TPR：违规广告被抓住的比例FPR：正常广告被误伤的比例
+</code></pre>
+<p>ROC 越靠左上角，模型区分能力越强。</p>
+<hr/>
+<h2 id="22-auc">22. AUC<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#22-auc" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>AUC 是 ROC 曲线下面的面积。</strong></p>
+<p>AUC 越大，模型整体区分正负样本的能力越强。</p>
+<p>可以粗略理解为：</p>
+<blockquote>
+<p><strong>模型把违规广告排在正常广告前面的能力。</strong></p>
+</blockquote>
+<p>AUC = 1，代表非常完美。<br/>
+AUC = 0.5，接近随机猜测。</p>
+<hr/>
+<h2 id="23-roc-和-pr-的区别">23. ROC 和 PR 的区别<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#23-roc-和-pr-的区别" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>对比项</th><th>ROC 曲线</th><th>PR 曲线</th></tr></thead><tbody><tr><td>横轴</td><td>FPR</td><td>Recall</td></tr><tr><td>纵轴</td><td>TPR / Recall</td><td>Precision</td></tr><tr><td>重点</td><td>整体区分能力</td><td>正样本识别质量</td></tr><tr><td>适合场景</td><td>样本较均衡</td><td>正负样本不均衡</td></tr><tr><td>广告审核</td><td>可参考</td><td>通常更重要</td></tr></tbody></table></div>
+<p>广告审核中，违规样本通常远少于正常样本，所以 <strong>PR 曲线往往比 ROC 曲线更敏感</strong>。</p>
+<hr/>
+<h1 id="六样本难度相关">六、样本难度相关<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#六样本难度相关" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="24-positive-sample">24. Positive Sample<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#24-positive-sample" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Positive Sample 是正样本。</strong></p>
+<p>在广告审核里，通常指：</p>
+<pre><code>违规广告风险广告应该拦截的广告
+</code></pre>
+<p>例如：</p>
+<pre><code>3天根治糖尿病，无效退款
+</code></pre>
+<p>这就是风险正样本。</p>
+<hr/>
+<h2 id="25-negative-sample">25. Negative Sample<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#25-negative-sample" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Negative Sample 是负样本。</strong></p>
+<p>在广告审核里，通常指：</p>
+<pre><code>正常广告合规广告可以放行的广告
+</code></pre>
+<p>例如：</p>
+<pre><code>新鲜苹果产地直发，今日特价
+</code></pre>
+<p>这就是普通负样本。</p>
+<hr/>
+<h2 id="26-easy-negative">26. Easy Negative<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#26-easy-negative" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Easy Negative 是简单负样本。</strong></p>
+<p>它真实是负样本，而且模型很容易判断它是负样本。</p>
+<p>广告审核例子：</p>
+<pre><code>今日新鲜苹果，产地直发
+</code></pre>
+<p>如果任务是识别违规医疗广告，这种样本明显不是医疗违规广告，模型很容易判断。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>Easy negative = 很容易识别的正常样本。</strong></p>
+</blockquote>
+<hr/>
+<h2 id="27-hard-negative">27. Hard Negative<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#27-hard-negative" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Hard Negative 是困难负样本。</strong></p>
+<p>它真实是负样本，但长得很像正样本，模型容易误判。</p>
+<p>广告审核例子：</p>
+<pre><code>糖尿病患者饮食管理科普：如何控制每日糖分摄入
+</code></pre>
+<p>这条内容提到了“糖尿病”，但它可能只是科普，不是违规广告。</p>
+<p>模型如果只看关键词，可能会误判成医疗违规。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>Hard negative = 真实没问题，但看起来很像有问题的样本。</strong></p>
+</blockquote>
+<p>Hard negative 主要用来降低误伤。</p>
+<hr/>
+<h2 id="28-hard-positive">28. Hard Positive<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#28-hard-positive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Hard Positive 是困难正样本。</strong></p>
+<p>它真实是正样本，但模型容易误判成负样本。</p>
+<p>广告审核例子：</p>
+<pre><code>三天恢复年轻状态，秘密配方，限时抢购
+</code></pre>
+<p>它可能没有直接写“治疗”“根治”，但有明显夸大承诺和诱导转化风险。</p>
+<p>模型如果只依赖关键词，可能会漏掉。</p>
+<p>一句话：</p>
+<blockquote>
+<p><strong>Hard positive = 真实有问题，但看起来不明显的风险样本。</strong></p>
+</blockquote>
+<p>Hard positive 主要用来降低漏放。</p>
+<hr/>
+<h2 id="29-hard-negative-mining">29. Hard Negative Mining<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#29-hard-negative-mining" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Hard Negative Mining 是困难负样本挖掘。</strong></p>
+<p>意思是：<br/>
+专门找那些模型容易误判的负样本，加入训练集。</p>
+<p>广告审核里常见做法：</p>
+<pre><code>找被模型误拦的正常广告人工确认它们确实合规加入 hard negative 数据集重新训练模型
+</code></pre>
+<p>这样模型会学会：</p>
+<pre><code>不是出现“糖尿病”就违规不是出现“贷款”就高风险不是出现“减肥”就虚假宣传要结合上下文、承诺方式、资质、落地页内容判断
+</code></pre>
+<p>一句话：</p>
+<blockquote>
+<p><strong>Hard negative mining = 专门收集容易误伤的正常样本来训练模型。</strong></p>
+</blockquote>
+<hr/>
+<h1 id="七广告审核业务里最重要的一组对应关系">七、广告审核业务里最重要的一组对应关系<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#七广告审核业务里最重要的一组对应关系" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>你可以重点记这一组：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>机器学习名词</th><th>广告审核里的意思</th></tr></thead><tbody><tr><td>Positive</td><td>违规 / 风险广告</td></tr><tr><td>Negative</td><td>正常 / 合规广告</td></tr><tr><td>TP</td><td>违规广告被正确拦截</td></tr><tr><td>FP</td><td>正常广告被误拦，也就是误伤</td></tr><tr><td>FN</td><td>违规广告被放过，也就是漏放</td></tr><tr><td>TN</td><td>正常广告被正确放行</td></tr><tr><td>Precision</td><td>拦截得准不准</td></tr><tr><td>Recall</td><td>违规抓得全不全</td></tr><tr><td>Hard Negative</td><td>容易被误伤的正常广告</td></tr><tr><td>Hard Positive</td><td>容易被漏放的违规广告</td></tr><tr><td>Threshold</td><td>模型拦截分数线</td></tr><tr><td>PR 曲线</td><td>误伤和漏放之间的权衡</td></tr><tr><td>AUC</td><td>模型整体排序/区分能力</td></tr><tr><td>Multi-label</td><td>一条广告可以同时命中多个风险标签</td></tr></tbody></table></div>
+<hr/>
+<h1 id="八最简复习版">八、最简复习版<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#八最简复习版" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>最后给你一个极简记忆版：</p>
+<pre><code>torchrun：PyTorch 多卡训练启动器。DeepSpeed：大模型训练加速和省显存框架。LLaMA-Factory：大模型微调工具箱。SFT：用标注好的问答数据教模型回答。LoRA：只训练少量新增参数，省显存。QLoRA：量化后的 LoRA，更省显存。Multi-label prediction：一个样本可以同时打多个标签。Precision：模型拦截的样本里，有多少是真的违规。关注误伤。Recall：真实违规样本里，有多少被模型抓住。关注漏放。PR 曲线：看 Precision 和 Recall 的权衡。ROC 曲线：看 TPR 和 FPR 的权衡。AUC：模型区分正负样本的整体能力。Hard negative：真实正常，但很像违规，容易被误伤。Hard positive：真实违规，但不明显，容易被漏放。
+</code></pre>
+<p>你复习时可以抓住一句核心：</p>
+<blockquote>
+<p><strong>广告审核模型的本质，就是在 Precision 和 Recall 之间找平衡：既要少误伤正常广告，也要少漏放风险广告。</strong></p>
+</blockquote>
+<p><strong>空标签打标</strong> 和 <strong>空跑</strong> 都是业务/数据/模型场景里的常见口语说法。公开资料里“标签体系”通常就是给数据或对象加标签，用来分类和描述对象特征；你问的这两个词更像公司内部流程话术。</p>
+<h2 id="1-空标签打标是什么意思">1. 空标签打标是什么意思？<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-空标签打标是什么意思" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>空标签打标 = 样本看了，但没有命中任何可选标签，所以标成“空/无/不适用”。</strong></p>
+<p>它不是“不打标”，而是明确告诉系统：</p>
+<blockquote>
+<p>这个样本我审核过了，但它不属于当前标签体系里的任何一个标签。</p>
+</blockquote>
+<p>比如广告审核里有一批风险标签：</p>
+<pre><code>夸大宣传低俗擦边虚假资质诱导点击医疗违规
+</code></pre>
+<p>现在来了一个广告样本，人工审核后发现它没有这些问题，那么可以打成：</p>
+<pre><code>空标签 / 无风险 / 无命中 / none / negative
+</code></pre>
+<h3 id="举例">举例<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#举例" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>一个广告文案是：</p>
+<pre><code>夏季新品 T 恤，第二件半价。
+</code></pre>
+<p>审核员看完后发现：</p>
+<pre><code>不虚假不低俗不诱导不违规
+</code></pre>
+<p>那它就可能被打成 <strong>空标签</strong>。</p>
+<h3 id="它和漏标不一样">它和漏标不一样<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#它和漏标不一样" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>空标签</strong>：我看过了，确认没有命中标签。<br/>
+<strong>漏标</strong>：它本来应该命中某个标签，但审核员没标出来。</p>
+<p>比如：</p>
+<pre><code>广告：三天治好糖尿病，100%有效。
+</code></pre>
+<p>应该标：医疗夸大 / 虚假宣传。<br/>
+如果审核员标成空标签，这就不是正常空标签，而是<strong>漏标/错标</strong>。</p>
+<hr/>
+<h2 id="2-空跑是什么意思">2. 空跑是什么意思？<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-空跑是什么意思" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>空跑 = 让系统、规则、模型或流程先跑起来，但暂时不真正影响线上结果。</strong></p>
+<p>你可以理解成：</p>
+<blockquote>
+<p>先试运行，只观察效果，不真的拦截、不真的处罚、不真的改变用户看到的结果。</p>
+</blockquote>
+<p>英文里有点像：</p>
+<pre><code>dry runshadow run灰度旁路验证
+</code></pre>
+<h3 id="广告审核里的例子">广告审核里的例子<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#广告审核里的例子" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>假设你们新做了一条审核规则：</p>
+<pre><code>命中“100%根治”“包治百病”的广告，判为医疗夸大。
+</code></pre>
+<p>但是你不敢一上线就直接拦截，因为可能误伤正常广告。</p>
+<p>所以先让它<strong>空跑一周</strong>：</p>
+<pre><code>规则照常扫描广告命中了就记录日志但不真的拦截广告也不影响审核结果
+</code></pre>
+<p>然后看数据：</p>
+<pre><code>命中了多少广告？其中多少是真的违规？误伤率高不高？漏放有没有减少？
+</code></pre>
+<p>如果效果好，再正式上线生效。</p>
+<hr/>
+<h2 id="3-两个词放在一起理解">3. 两个词放在一起理解<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-两个词放在一起理解" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>可以这样记：</p>
+<pre><code>空标签打标：打标结果为空，表示样本没有命中任何标签。空跑：流程/规则/模型先跑，但不真正生效。
+</code></pre>
+<p>更口语一点：</p>
+<pre><code>空标签打标 = 这个样本看过了，没问题，标“无”。空跑 = 先偷偷跑一遍看看效果，别急着上线影响业务。
+</code></pre>
+<p>在广告审核业务里，<strong>空跑</strong>通常用于新规则、新模型、新策略上线前验证；<strong>空标签打标</strong>通常用于样本标注、模型训练、质检回流里面区分“正常样本”和“风险样本”。</p>
+<p>广告资源：微信广告部、信息流与QQ广告部（XQ）、新闻视频广告合作部（XS）和联盟广告部</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-1" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#一大模型训练相关" data-for="一大模型训练相关">一、大模型训练相关</a></li><li class="depth-1"><a href="#1-torchrun" data-for="1-torchrun">1. torchrun</a></li><li class="depth-1"><a href="#2-ddp" data-for="2-ddp">2. DDP</a></li><li class="depth-1"><a href="#3-deepspeed" data-for="3-deepspeed">3. DeepSpeed</a></li><li class="depth-1"><a href="#4-zero" data-for="4-zero">4. ZeRO</a></li><li class="depth-1"><a href="#5-offload" data-for="5-offload">5. Offload</a></li><li class="depth-0"><a href="#二大模型微调工具相关" data-for="二大模型微调工具相关">二、大模型微调工具相关</a></li><li class="depth-1"><a href="#6-llama-factory" data-for="6-llama-factory">6. LLaMA-Factory</a></li><li class="depth-1"><a href="#7-sft" data-for="7-sft">7. SFT</a></li><li class="depth-1"><a href="#8-lora" data-for="8-lora">8. LoRA</a></li><li class="depth-1"><a href="#9-qlora" data-for="9-qlora">9. QLoRA</a></li><li class="depth-1"><a href="#10-dpo" data-for="10-dpo">10. DPO</a></li><li class="depth-0"><a href="#三分类任务相关" data-for="三分类任务相关">三、分类任务相关</a></li><li class="depth-1"><a href="#11-binary-classification" data-for="11-binary-classification">11. Binary Classification</a></li><li class="depth-1"><a href="#12-multi-class-prediction" data-for="12-multi-class-prediction">12. Multi-class Prediction</a></li><li class="depth-1"><a href="#13-multi-label-prediction" data-for="13-multi-label-prediction">13. Multi-label Prediction</a></li><li class="depth-1"><a href="#14-label" data-for="14-label">14. Label</a></li><li class="depth-0"><a href="#四pr-曲线与评估指标" data-for="四pr-曲线与评估指标">四、PR 曲线与评估指标</a></li><li class="depth-1"><a href="#15-precision" data-for="15-precision">15. Precision</a></li><li class="depth-1"><a href="#16-recall" data-for="16-recall">16. Recall</a></li><li class="depth-1"><a href="#17-pr-曲线" data-for="17-pr-曲线">17. PR 曲线</a></li><li class="depth-1"><a href="#18-threshold" data-for="18-threshold">18. Threshold</a></li><li class="depth-1"><a href="#19-tp--fp--fn--tn" data-for="19-tp--fp--fn--tn">19. TP / FP / FN / TN</a></li><li class="depth-1"><a href="#20-ap--auprc" data-for="20-ap--auprc">20. AP / AUPRC</a></li><li class="depth-1"><a href="#21-groundtruth" data-for="21-groundtruth">21. Groundtruth</a></li><li class="depth-0"><a href="#五roc--auc-相关" data-for="五roc--auc-相关">五、ROC / AUC 相关</a></li><li class="depth-1"><a href="#21-roc-曲线" data-for="21-roc-曲线">21. ROC 曲线</a></li><li class="depth-1"><a href="#22-auc" data-for="22-auc">22. AUC</a></li><li class="depth-1"><a href="#23-roc-和-pr-的区别" data-for="23-roc-和-pr-的区别">23. ROC 和 PR 的区别</a></li><li class="depth-0"><a href="#六样本难度相关" data-for="六样本难度相关">六、样本难度相关</a></li><li class="depth-1"><a href="#24-positive-sample" data-for="24-positive-sample">24. Positive Sample</a></li><li class="depth-1"><a href="#25-negative-sample" data-for="25-negative-sample">25. Negative Sample</a></li><li class="depth-1"><a href="#26-easy-negative" data-for="26-easy-negative">26. Easy Negative</a></li><li class="depth-1"><a href="#27-hard-negative" data-for="27-hard-negative">27. Hard Negative</a></li><li class="depth-1"><a href="#28-hard-positive" data-for="28-hard-positive">28. Hard Positive</a></li><li class="depth-1"><a href="#29-hard-negative-mining" data-for="29-hard-negative-mining">29. Hard Negative Mining</a></li><li class="depth-0"><a href="#七广告审核业务里最重要的一组对应关系" data-for="七广告审核业务里最重要的一组对应关系">七、广告审核业务里最重要的一组对应关系</a></li><li class="depth-0"><a href="#八最简复习版" data-for="八最简复习版">八、最简复习版</a></li><li class="depth-1"><a href="#1-空标签打标是什么意思" data-for="1-空标签打标是什么意思">1. 空标签打标是什么意思？</a></li><li class="depth-2"><a href="#举例" data-for="举例">举例</a></li><li class="depth-2"><a href="#它和漏标不一样" data-for="它和漏标不一样">它和漏标不一样</a></li><li class="depth-1"><a href="#2-空跑是什么意思" data-for="2-空跑是什么意思">2. 空跑是什么意思？</a></li><li class="depth-2"><a href="#广告审核里的例子" data-for="广告审核里的例子">广告审核里的例子</a></li><li class="depth-1"><a href="#3-两个词放在一起理解" data-for="3-两个词放在一起理解">3. 两个词放在一起理解</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="./postscript.js" type="module" data-persist="true"></script></html>

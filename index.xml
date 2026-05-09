@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>luisliu95的知识库</title>
+      <link>https://luisliu95.github.io/my-wiki-ad</link>
+      <description>最近的10条笔记 on luisliu95的知识库</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>资质项目进度+X分析思路</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/%E8%B5%84%E8%B4%A8%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6+X%E5%88%86%E6%9E%90%E6%80%9D%E8%B7%AF</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/%E8%B5%84%E8%B4%A8%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6+X%E5%88%86%E6%9E%90%E6%80%9D%E8%B7%AF</guid>
+    <description><![CDATA[  预计5.8出资质聚类标注结果@张晨曦————5.9还没出 企业名称信息来源问题出现卡点————5.9 18:00-18:30对一下 对X影响最大的因素，有行业聚集性 每天选出Top3影响的因素，让算法看，海龙 要到标签维度，不设通道 算法值得看的东西？ 特征点：连续上涨三天？并且不是单点case贡献的 单客户的问题怎么归因？ 集中一个地方违规， 单客户的问题：运营的介入方式： 客户叉乘标签，满足一定条件，要风控看. ]]></description>
+    <pubDate>Sat, 09 May 2026 09:51:10 GMT</pubDate>
+  </item><item>
+    <title>5.8周会</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A</guid>
+    <description><![CDATA[ 周3001：大电商 3006: 医疗健康. ]]></description>
+    <pubDate>Sat, 09 May 2026 07:27:41 GMT</pubDate>
+  </item><item>
+    <title>名词</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/%E5%90%8D%E8%AF%8D</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/%E5%90%8D%E8%AF%8D</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Sat, 09 May 2026 03:56:07 GMT</pubDate>
+  </item><item>
+    <title>5.9复用库回扫-AMS腾讯视频群</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.9%E5%A4%8D%E7%94%A8%E5%BA%93%E5%9B%9E%E6%89%AB-AMS%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91%E7%BE%A4</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.9%E5%A4%8D%E7%94%A8%E5%BA%93%E5%9B%9E%E6%89%AB-AMS%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91%E7%BE%A4</guid>
+    <description><![CDATA[  流量特殊要求才回扫 上新的ai能力不用回扫 sop！. ]]></description>
+    <pubDate>Sat, 09 May 2026 03:22:57 GMT</pubDate>
+  </item><item>
+    <title>工作内容整理：资质专项与 X 指标原因分析</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.9-%E4%B8%8E%E7%A3%8A%E5%93%A5%E6%B2%9F%E9%80%9A-%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%EF%BC%9A%E8%B5%84%E8%B4%A8%E4%B8%93%E9%A1%B9%E4%B8%8E-X-%E6%8C%87%E6%A0%87%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.9-%E4%B8%8E%E7%A3%8A%E5%93%A5%E6%B2%9F%E9%80%9A-%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%EF%BC%9A%E8%B5%84%E8%B4%A8%E4%B8%93%E9%A1%B9%E4%B8%8E-X-%E6%8C%87%E6%A0%87%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90</guid>
+    <description><![CDATA[ 工作内容整理：资质专项与 X 指标原因分析 1. ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>质检专项</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/%E8%B4%A8%E6%A3%80%E4%B8%93%E9%A1%B9</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/%E8%B4%A8%E6%A3%80%E4%B8%93%E9%A1%B9</guid>
+    <description><![CDATA[  置信/非置信链路 长什么样。。小店、平台电商就算是 外链 就是和腾讯没有关系的连接比如京东淘宝之类的？？ 非置信和置信客户怎么区分的？有个白名单表？ 行部是什么意思？ 一跳二跳是什么意思？ 一跳：广告点进去就是目标页。 二跳：广告点进去先到中间页，还要再点一次才到目标页。 举个例子： 一跳直播： 用户看到广告 → 点广告 → 直接进视频号直播间 二跳直播： 用户看到广告 → 点广告 → 进入品牌落地页/官方页 → 点“进入直播间”按钮 → 才进视频号直播间 wx，xq，xs，联盟：这些广告资源，归属于四个业务部门负责:微信广告部、信息流与QQ广告部(XQ)新闻视频广告合作部(XS)和联盟广告... ]]></description>
+    <pubDate>Fri, 08 May 2026 11:38:13 GMT</pubDate>
+  </item><item>
+    <title>5.7 与腾哥沟通专项</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.7-%E4%B8%8E%E8%85%BE%E5%93%A5%E6%B2%9F%E9%80%9A%E4%B8%93%E9%A1%B9</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.7-%E4%B8%8E%E8%85%BE%E5%93%A5%E6%B2%9F%E9%80%9A%E4%B8%93%E9%A1%B9</guid>
+    <description><![CDATA[ 专项召回 超广审/侵权/资质/警示语 （在做了）超广审：复杂在于需要很多医疗的知识去识别描述的时候有没有超过这些药品允许描述的范围 最近研发在做很多实验，直到等下结果看是不是能ok。 （做的差不多了）侵权：日常的迭代任务 （重点）资质：广告有很多描述，不是广告主怎么描述都行的，要提供对应的材料和资质证明有这个功效/特性。比如说宣传衣服是纯棉的，有个材质的检测报告。 杂乱的原因： 广告主会传不同格式的资质 手写的 拍照的 等等其他的格式 我们的规则不停的在调整 从头到尾设计： 涉及到投放的流程。链路比较长：网址上传（是否做一些约束？）——&gt;翻译成模型能懂的话——&gt;提炼——&gt;标准... ]]></description>
+    <pubDate>Fri, 08 May 2026 11:02:09 GMT</pubDate>
+  </item><item>
+    <title>3.0架构</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/3.0%E6%9E%B6%E6%9E%84</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/3.0%E6%9E%B6%E6%9E%84</guid>
+    <description><![CDATA[  first_level_industry_name——————一级行业 second_level_industry_name ———— element_key——————————————头像？ u_name———————————————— is_ad_acct_element—————————— element_type—————————————— source_element_type—————————— splash_flag———————————————— caption_info—————————————— text images asr_results ocr_results vi... ]]></description>
+    <pubDate>Fri, 08 May 2026 09:36:12 GMT</pubDate>
+  </item><item>
+    <title>5.8周会朋友圈九图</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%B9%9D%E5%9B%BE</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%B9%9D%E5%9B%BE</guid>
+    <description><![CDATA[ 9、审核模式演进@anneyzhao(赵岩) 目标：探索tid审核模式，建设审核组合型违规的能力，并在年底完成与单元素的管控机审能力对齐 方案：以”朋友圈 9 图问题”为试点，跑通组合审核链路。 进展：朋友圈 9 图通过模型测进行图片组装，与原方案存在差异，目前在研发验证阶段，如果是模型侧进行图片拼装，链路侧的方案需调整。 tid环节是什么？ 用tid审还是单元素审？ 投放端不合适插入新的东西（9图组合后的图）. ]]></description>
+    <pubDate>Fri, 08 May 2026 07:19:23 GMT</pubDate>
+  </item><item>
+    <title>Q2攻坚</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/Q2%E6%94%BB%E5%9D%9A</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/Q2%E6%94%BB%E5%9D%9A</guid>
+    <description><![CDATA[  黑词是什么意思？ todo（磊哥+飞哥+佳丽）会后单独讨论： 在优化哪些指标？ 哪些有效果，哪些没效果 有没有带来额外的漏放情况 晚上串数据 总结阶段性情况 . ]]></description>
+    <pubDate>Thu, 07 May 2026 11:53:06 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
