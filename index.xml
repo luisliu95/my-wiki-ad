@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on luisliu95的知识库</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>更新知识库方式</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/%E6%9B%B4%E6%96%B0%E7%9F%A5%E8%AF%86%E5%BA%93%E6%96%B9%E5%BC%8F</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/%E6%9B%B4%E6%96%B0%E7%9F%A5%E8%AF%86%E5%BA%93%E6%96%B9%E5%BC%8F</guid>
-    <description><![CDATA[ 方法 1：使用更新脚本 Copy cd ~/.openclaw/workspace/wiki/quartz-site ./update.sh 方法 2：手动执行 Copy cd ~/.openclaw/workspace/wiki/quartz-site npx quartz build &amp;&amp; npx gh-pages -d public -b gh-pages 更新后等待 1-2 分钟，刷新网站即可看到新内容！. ]]></description>
-    <pubDate>Sat, 09 May 2026 13:22:31 GMT</pubDate>
+    <title>5.19磊哥关于误杀和漏放问题的思考，产品该做什么</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.19%E7%A3%8A%E5%93%A5%E5%85%B3%E4%BA%8E%E8%AF%AF%E6%9D%80%E5%92%8C%E6%BC%8F%E6%94%BE%E9%97%AE%E9%A2%98%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%8C%E4%BA%A7%E5%93%81%E8%AF%A5%E5%81%9A%E4%BB%80%E4%B9%88</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.19%E7%A3%8A%E5%93%A5%E5%85%B3%E4%BA%8E%E8%AF%AF%E6%9D%80%E5%92%8C%E6%BC%8F%E6%94%BE%E9%97%AE%E9%A2%98%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%8C%E4%BA%A7%E5%93%81%E8%AF%A5%E5%81%9A%E4%BB%80%E4%B9%88</guid>
+    <description><![CDATA[ 模型一直在迭代，误杀和漏放会一直存在，当我们接受到一个问题之后，整个链路应该如何响应，能不能更快响应 1.模型应该如何调整？阈值？重训？ 2.样本应该如何调整？相似挖掘？补打标？剔除？ 3.分流策略如何调整？ 这些响应手段能不能标准化、精细化、自助化、自动化，休假了也能持续运作. ]]></description>
+    <pubDate>Tue, 19 May 2026 02:50:59 GMT</pubDate>
   </item><item>
-    <title>首页</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/</guid>
-    <description><![CDATA[ 欢迎来到我的知识库 📚 这是我的个人知识库，记录工作、学习和思考。 📋 最近更新 5.9 与磊哥沟通 工作内容整理：资质专项与 X 指标原因分析 资质项目进度+X分析思路 质检专项 5.8周会 🏷️ 主要内容 工作记录 项目管理 技术文档 💡 使用左侧导航栏浏览所有笔记，或使用搜索功能快速查找内容。. ]]></description>
-    <pubDate>Sat, 09 May 2026 13:08:43 GMT</pubDate>
+    <title>5.13有名有姓+水印侵权+ip侵权 todo与优先级讨论@诗曼</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.13%E6%9C%89%E5%90%8D%E6%9C%89%E5%A7%93+%E6%B0%B4%E5%8D%B0%E4%BE%B5%E6%9D%83+ip%E4%BE%B5%E6%9D%83-todo%E4%B8%8E%E4%BC%98%E5%85%88%E7%BA%A7%E8%AE%A8%E8%AE%BA@%E8%AF%97%E6%9B%BC</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.13%E6%9C%89%E5%90%8D%E6%9C%89%E5%A7%93+%E6%B0%B4%E5%8D%B0%E4%BE%B5%E6%9D%83+ip%E4%BE%B5%E6%9D%83-todo%E4%B8%8E%E4%BC%98%E5%85%88%E7%BA%A7%E8%AE%A8%E8%AE%BA@%E8%AF%97%E6%9B%BC</guid>
+    <description><![CDATA[ 做不了： 企业名称与品牌名单问题 名单可用性:之前找的名单中，“品牌名称“和“品牌简称”字段均被运营反馈不可用，且运营无法提供新的名单。 无法落地:没有名单的话，无论是机审还是人审都无法实际落地该规则。 目前在做： 2. ]]></description>
+    <pubDate>Mon, 18 May 2026 04:02:38 GMT</pubDate>
+  </item><item>
+    <title>code槽位问题</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/code%E6%A7%BD%E4%BD%8D%E9%97%AE%E9%A2%98</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/code%E6%A7%BD%E4%BD%8D%E9%97%AE%E9%A2%98</guid>
+    <description><![CDATA[ 现在的链路是？： 广告主选择/上传到 A679 槽位 ↓ 系统认为它是“双方推广授权协议” ↓ 但实际文件内容可能是“合作协议” 所以会出现： code = A679 资质名称字段 = 双方推广授权协议 真实文件内容 = 合作协议 资质槽位污染 / 资质乱传 / code 与真实资质内容不一致 你说的解法是在客户上传资质时完成如下流程：？ 上传资质文件 ↓ OCR / PDF文本解析 ↓ 识别真实资质类型 ↓ 和当前 code 要求的资质类型做一致性校验 ↓ 一致：继续校验主体、授权范围、有效期等 不一致：拒绝 / 转人工 / 提示重传 在我们这边，因为想做到上述对客户资质上传时修改没啥用，现... ]]></description>
+    <pubDate>Mon, 18 May 2026 03:26:26 GMT</pubDate>
+  </item><item>
+    <title>14781</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/14781</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/14781</guid>
+    <description><![CDATA[  先运营商业务 视觉中心 运营商颜色是否清楚（字体是否一样，或者大）腾讯会员不等于运营商业务 模糊弱化（范围大 信息不明确（范围小 会员的四周展示是什么会员 领取会员不行，但是附近有运营商字体与会员是否一致 共同点：视觉是否中心？肉眼一眼能看到 14781交互诱导 光标 内部流量 打开领移动会员。 分开就不行 找到有code679. ]]></description>
+    <pubDate>Fri, 15 May 2026 10:04:18 GMT</pubDate>
+  </item><item>
+    <title>水印侵权-资质问题信息对齐</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/%E6%B0%B4%E5%8D%B0%E4%BE%B5%E6%9D%83-%E8%B5%84%E8%B4%A8%E9%97%AE%E9%A2%98%E4%BF%A1%E6%81%AF%E5%AF%B9%E9%BD%90</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/%E6%B0%B4%E5%8D%B0%E4%BE%B5%E6%9D%83-%E8%B5%84%E8%B4%A8%E9%97%AE%E9%A2%98%E4%BF%A1%E6%81%AF%E5%AF%B9%E9%BD%90</guid>
+    <description><![CDATA[  ocr文案中出现“CCTV推荐”而不是水印/logo 这种要拒吗？如果这种不算14842，出现CCTV就拒是不是会造成误杀？ Answer：除了cctv自己来推，都是需要授权的，所以“xxx推荐“形式正常走核查流程即可 水印侵权重点（官媒+政府机构）名单： 官媒：由党政机关主管主办，承担舆论引导、政策发布职能的新闻出版单位，如：人民日报、新华社、新华网、光明日报、经济日报、中国日报、解放军报、中国新闻社、中央广播电视总台（CCTV）、央广网、央视网、中国国际广播电台、人民网、求是网、中国网、环球网、中国青年网等； 政府机构：行使行政、司法、立法等国家公权力的机关及直属单位，如：外交部、国防部... ]]></description>
+    <pubDate>Fri, 15 May 2026 07:41:29 GMT</pubDate>
+  </item><item>
+    <title>5.11 与诗曼沟通真实姓名资质需求——待办还未完结</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.11-%E4%B8%8E%E8%AF%97%E6%9B%BC%E6%B2%9F%E9%80%9A%E7%9C%9F%E5%AE%9E%E5%A7%93%E5%90%8D%E8%B5%84%E8%B4%A8%E9%9C%80%E6%B1%82%E2%80%94%E2%80%94%E5%BE%85%E5%8A%9E%E8%BF%98%E6%9C%AA%E5%AE%8C%E7%BB%93</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.11-%E4%B8%8E%E8%AF%97%E6%9B%BC%E6%B2%9F%E9%80%9A%E7%9C%9F%E5%AE%9E%E5%A7%93%E5%90%8D%E8%B5%84%E8%B4%A8%E9%9C%80%E6%B1%82%E2%80%94%E2%80%94%E5%BE%85%E5%8A%9E%E8%BF%98%E6%9C%AA%E5%AE%8C%E7%BB%93</guid>
+    <description><![CDATA[ 难点：图像与OCR难以在帧级别精确关联 shimanli(李诗曼)表示会在近期完成VLM模型的初步训练，后续需要观察是否存在精度过低的情况，若有则可能需要进一步分析并调整规则。同时指出，由于图像与OCR难以在帧级别精确关联，该能力实现有一定难度，因此先进行训练观察效果。 模型上线与空跑流程：shimanli(李诗曼)询问了模型后续的空跑和上线流程是否由luiisliu(刘天毅)对接，luiisliu(刘天毅)确认自己正在负责该项目，并主动询问shimanli(李诗曼)当前阶段是否需要帮助。shimanli(李诗曼)未提出具体支持需求，对话结束于luiisliu(刘天毅)的确认询问。 todo：... ]]></description>
+    <pubDate>Wed, 13 May 2026 10:53:41 GMT</pubDate>
   </item><item>
     <title>资质项目进度+X分析思路</title>
     <link>https://luisliu95.github.io/my-wiki-ad/%E8%B5%84%E8%B4%A8%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6+X%E5%88%86%E6%9E%90%E6%80%9D%E8%B7%AF</link>
     <guid>https://luisliu95.github.io/my-wiki-ad/%E8%B5%84%E8%B4%A8%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6+X%E5%88%86%E6%9E%90%E6%80%9D%E8%B7%AF</guid>
-    <description><![CDATA[  预计5.8出资质聚类标注结果@张晨曦————5.9还没出 企业名称信息来源问题出现卡点————5.9 18:00-18:30对一下 对X影响最大的因素，有行业聚集性 每天选出Top3影响的因素，让算法看，海龙 要到标签维度，不设通道 算法值得看的东西？ 特征点：连续上涨三天？并且不是单点case贡献的 单客户的问题怎么归因？ 集中一个地方违规， 单客户的问题：运营的介入方式： 客户叉乘标签，满足一定条件，要风控看. ]]></description>
-    <pubDate>Sat, 09 May 2026 09:51:10 GMT</pubDate>
+    <description><![CDATA[  预计5.8出资质聚类标注结果@张晨曦————5.9还没出。5.13还没出 企业名称信息来源问题出现卡点————5.9 18:00-18:30对一下 对X影响最大的因素，有行业聚集性 每天选出Top3影响的因素，让算法看，海龙 要到标签维度，不设通道 算法值得看的东西？ 特征点：连续上涨三天？并且不是单点case贡献的 单客户的问题怎么归因？ 集中一个地方违规， 单客户的问题：运营的介入方式： 客户叉乘标签，满足一定条件，要风控看 5.8更新 5.7之前样本库的数据 一般是周5训练，周二上线新模型. ]]></description>
+    <pubDate>Wed, 13 May 2026 08:53:18 GMT</pubDate>
   </item><item>
-    <title>5.8周会</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/5.8%E5%91%A8%E4%BC%9A</guid>
-    <description><![CDATA[ 周3001：大电商 3006: 医疗健康. ]]></description>
-    <pubDate>Sat, 09 May 2026 07:27:41 GMT</pubDate>
+    <title>5.12 漏放-免费领问题跟进</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/5.12-%E6%BC%8F%E6%94%BE-%E5%85%8D%E8%B4%B9%E9%A2%86%E9%97%AE%E9%A2%98%E8%B7%9F%E8%BF%9B</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/5.12-%E6%BC%8F%E6%94%BE-%E5%85%8D%E8%B4%B9%E9%A2%86%E9%97%AE%E9%A2%98%E8%B7%9F%E8%BF%9B</guid>
+    <description><![CDATA[  群内的定论是什么，需要和诗曼对齐. ]]></description>
+    <pubDate>Wed, 13 May 2026 07:53:24 GMT</pubDate>
+  </item><item>
+    <title>1&amp;2笔记</title>
+    <link>https://luisliu95.github.io/my-wiki-ad/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/1-and-2%E7%AC%94%E8%AE%B0</link>
+    <guid>https://luisliu95.github.io/my-wiki-ad/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/1-and-2%E7%AC%94%E8%AE%B0</guid>
+    <description><![CDATA[ 互联网商业广告基础 ├── 一、互联网商业变现模式 │ ├── 传统变现模式 │ │ ├── 流量变现 │ │ │ └── 广告 │ │ ├── 电商与金融 │ │ │ ├── 自营电商：赚差价 │ │ │ ├── 平台电商：抽佣 │ │ │ └── 交易手续费 │ │ ├── 会员与增值服务 │ │ │ ├── 视频会员 │ │ │ ├── 游戏道具 │ │ │ └── 知识付费 │ │ └── ToB 服务 │ │ ├── 云服务 │ │ └── SaaS 服务 │ └── AI 时代新变现模式 │ └── 按量计费 │ ├── 按 token 收费 │ ├── 按任务收费 │ └── 按... ]]></description>
+    <pubDate>Tue, 12 May 2026 12:13:34 GMT</pubDate>
   </item><item>
     <title>名词</title>
     <link>https://luisliu95.github.io/my-wiki-ad/%E5%90%8D%E8%AF%8D</link>
     <guid>https://luisliu95.github.io/my-wiki-ad/%E5%90%8D%E8%AF%8D</guid>
     <description><![CDATA[ 1. ]]></description>
-    <pubDate>Sat, 09 May 2026 03:56:07 GMT</pubDate>
-  </item><item>
-    <title>5.9复用库回扫-AMS腾讯视频群</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/5.9%E5%A4%8D%E7%94%A8%E5%BA%93%E5%9B%9E%E6%89%AB-AMS%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91%E7%BE%A4</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/5.9%E5%A4%8D%E7%94%A8%E5%BA%93%E5%9B%9E%E6%89%AB-AMS%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91%E7%BE%A4</guid>
-    <description><![CDATA[  流量特殊要求才回扫 上新的ai能力不用回扫 sop！. ]]></description>
-    <pubDate>Sat, 09 May 2026 03:22:57 GMT</pubDate>
-  </item><item>
-    <title>工作内容整理：资质专项与 X 指标原因分析</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/5.9-%E4%B8%8E%E7%A3%8A%E5%93%A5%E6%B2%9F%E9%80%9A-%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%EF%BC%9A%E8%B5%84%E8%B4%A8%E4%B8%93%E9%A1%B9%E4%B8%8E-X-%E6%8C%87%E6%A0%87%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/5.9-%E4%B8%8E%E7%A3%8A%E5%93%A5%E6%B2%9F%E9%80%9A-%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%EF%BC%9A%E8%B5%84%E8%B4%A8%E4%B8%93%E9%A1%B9%E4%B8%8E-X-%E6%8C%87%E6%A0%87%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90</guid>
-    <description><![CDATA[ 工作内容整理：资质专项与 X 指标原因分析 1. ]]></description>
-    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>质检专项</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/%E8%B4%A8%E6%A3%80%E4%B8%93%E9%A1%B9</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/%E8%B4%A8%E6%A3%80%E4%B8%93%E9%A1%B9</guid>
-    <description><![CDATA[  置信/非置信链路 长什么样。。小店、平台电商就算是 外链 就是和腾讯没有关系的连接比如京东淘宝之类的？？ 非置信和置信客户怎么区分的？有个白名单表？ 行部是什么意思？ 一跳二跳是什么意思？ 一跳：广告点进去就是目标页。 二跳：广告点进去先到中间页，还要再点一次才到目标页。 举个例子： 一跳直播： 用户看到广告 → 点广告 → 直接进视频号直播间 二跳直播： 用户看到广告 → 点广告 → 进入品牌落地页/官方页 → 点“进入直播间”按钮 → 才进视频号直播间 wx，xq，xs，联盟：这些广告资源，归属于四个业务部门负责:微信广告部、信息流与QQ广告部(XQ)新闻视频广告合作部(XS)和联盟广告... ]]></description>
-    <pubDate>Fri, 08 May 2026 11:38:13 GMT</pubDate>
-  </item><item>
-    <title>5.7 与腾哥沟通专项</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/5.7-%E4%B8%8E%E8%85%BE%E5%93%A5%E6%B2%9F%E9%80%9A%E4%B8%93%E9%A1%B9</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/5.7-%E4%B8%8E%E8%85%BE%E5%93%A5%E6%B2%9F%E9%80%9A%E4%B8%93%E9%A1%B9</guid>
-    <description><![CDATA[ 专项召回 超广审/侵权/资质/警示语 （在做了）超广审：复杂在于需要很多医疗的知识去识别描述的时候有没有超过这些药品允许描述的范围 最近研发在做很多实验，直到等下结果看是不是能ok。 （做的差不多了）侵权：日常的迭代任务 （重点）资质：广告有很多描述，不是广告主怎么描述都行的，要提供对应的材料和资质证明有这个功效/特性。比如说宣传衣服是纯棉的，有个材质的检测报告。 杂乱的原因： 广告主会传不同格式的资质 手写的 拍照的 等等其他的格式 我们的规则不停的在调整 从头到尾设计： 涉及到投放的流程。链路比较长：网址上传（是否做一些约束？）——&gt;翻译成模型能懂的话——&gt;提炼——&gt;标准... ]]></description>
-    <pubDate>Fri, 08 May 2026 11:02:09 GMT</pubDate>
-  </item><item>
-    <title>3.0架构</title>
-    <link>https://luisliu95.github.io/my-wiki-ad/3.0%E6%9E%B6%E6%9E%84</link>
-    <guid>https://luisliu95.github.io/my-wiki-ad/3.0%E6%9E%B6%E6%9E%84</guid>
-    <description><![CDATA[  first_level_industry_name——————一级行业 second_level_industry_name ———— element_key——————————————头像？ u_name———————————————— is_ad_acct_element—————————— element_type—————————————— source_element_type—————————— splash_flag———————————————— caption_info—————————————— text images asr_results ocr_results vi... ]]></description>
-    <pubDate>Fri, 08 May 2026 09:36:12 GMT</pubDate>
+    <pubDate>Tue, 12 May 2026 09:23:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
